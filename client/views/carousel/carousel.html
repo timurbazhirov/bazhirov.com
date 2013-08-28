@@ -1,0 +1,58 @@
+<template name="carousel">
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/img/city_grayscale_copy.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Mind.</h1>
+              <p class="lead">Physics PhD student at UC Berkeley. Techie.</p>
+              </br>
+              <p class="lead">I use quantum mechanics and supercomputers to study materials.</p>
+              <!-- <a class="btn btn-large btn-primary" href="#"></a> -->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/img/minnikhanov_copy4.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Soul.</h1>
+              <p class="lead">A native of Kazan, Tatarstan, Russia.</p>
+              </br>
+              <p class="lead">Came to US for grad school: Oski Bear since 2008.</p>
+              <!-- <a class="btn btn-large btn-primary" href="#">Learn more</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/img/steve_sandy_copy1.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Body.</h1>
+              <p class="lead">Your future friend, colleague or partner.</p>
+              </br>
+              <p class="lead">Please Login/Signup to see my email and more. Social links listed above.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+    <div class="container text-center" id="email">
+      {{#if loggedIn}}
+        <hr class="featurette-divider">
+        <h1>You can reach me at: </h1>
+            <p> 
+            email: <emph class="alert">timur@bazhirov.com</emph>
+            phone: <emph class="alert">510.473.7770</emph>
+            </br>
+            </p>
+        <h1>Here's my CV:</h1>
+            <p><a class="alert" href="https://www.dropbox.com/s/uizp8wvrmr7ggxa/TimurBazhirov_CV.pdf">TimurBazhirov_CV.pdf</a> </p>
+      {{/if}}
+    </div>
+</template>
