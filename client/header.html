@@ -1,0 +1,28 @@
+<template name="header">
+    <!-- NAVBAR -->
+  <header class="navbar navbar-inverse" id="login-holder">
+    <div class="navbar-inner">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">      
+        <span class="icon-bar"></span>      
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>      	
+      <!-- Brand name -->
+      <a class="brand" href="/">
+        <FONT COLOR="#FFA319">T</FONT>imur<FONT COLOR="#FFA319">B</FONT>azhirov
+      </a>
+      <!-- Main navbar items -->
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="{{active}}"><a href="{{scholar}}">Scholar</a></li>
+          <li class="{{active}}"><a href="{{facebook}}">Facebook</a></li>
+          <li class="{{active}}"><a href="{{linkedin}}">LinkedIn</a></li>
+          <li class="{{active}}"><a href="{{soundcloud}}">Soundcloud</a></li>
+          <li class="{{active}}"><a href="{{github}}">Github</a></li>
+        </ul>
+      </div>
+      <!-- Login btn -->
+      <a class="pull-right">{{loginButtons}}</a>
+    </div>
+  </header>
+</template>

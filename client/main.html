@@ -1,0 +1,17 @@
+<head>
+  <title>Timur Bazhirov</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/png">
+  <meta name="description" content="Timur Bazhirov's personal website">
+</head>
+
+<body>
+  <div class="wrapper" >
+    <!-- CONTAINER -->
+      <div class="container">
+      {{>header}}
+        <!-- MAIN: using "mrt router's" built-in helper-->
+        {{renderPage}}
+    </div>
+  </div>
+  {{>footer}}
+</body>
