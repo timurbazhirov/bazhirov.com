@@ -1,10 +1,10 @@
 <template name="carousel">
 <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="/img/img1.jpg" alt="">
+    <div id="myCarousel" class="carousel slide" style="margin-bottom: 0px;">
+      <div class="carousel-inner" style="box-shadow: 0px 0px 7px #888888;">
+        <div class="item active" style="border: 10px solid #FFF;">
+          <img src="/img/img1.jpg" style="height:515px;" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Mind.</h1>
@@ -14,8 +14,8 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="/img/img2.jpg" alt="">
+        <div class="item"  style="border: 10px solid #FFF;">
+          <img src="/img/img2.jpg" style="height:515px;" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Soul.</h1>
@@ -25,8 +25,8 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="/img/img3.jpg" alt="">
+        <div class="item" style="border: 10px solid #FFF;">
+          <img src="/img/img3.jpg" style="height:515px;" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Body.</h1>
@@ -42,15 +42,16 @@
     </div><!-- /.carousel -->
     <div class="container text-center" id="email">
       {{#if loggedIn}}
-        <hr class="featurette-divider">
-        <h1>You can reach me at: </h1>
+        <h3>Contact info: </h3>
             <p> 
-            email: <emph class="alert">timur@bazhirov.com</emph>
+            email: <emph class="alert">timur@bazhirov.com</emph><br>
             phone: <emph class="alert">510.473.7770</emph>
             </br>
             </p>
-        <h1>Here's my CV:</h1>
-            <p><a class="alert" href="https://www.dropbox.com/s/uizp8wvrmr7ggxa/TimurBazhirov_CV.pdf">TimurBazhirov_CV.pdf</a> </p>
+        <h3>CV:</h3>
+            <p>
+              <a class="alert" href="https://www.dropbox.com/s/uizp8wvrmr7ggxa/TimurBazhirov_CV.pdf">TimurBazhirov_CV.pdf</a> 
+            </p>
       {{/if}}
     </div>
 </template>

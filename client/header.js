@@ -3,15 +3,15 @@ Template.header.helpers({
 		return GOOGLE_SCHOLAR_URL;
 	},
 	facebook: function () {
-		return GOOGLE_SCHOLAR_URL;
+		return FACEBOOK_URL;
 	},
 	linkedin: function () {
-		return GOOGLE_SCHOLAR_URL;
+		return LINKEDIN_URL;
 	},
 	soundcloud: function () {
-		return GOOGLE_SCHOLAR_URL;
+		return SOUNDCLOUD_URL;
 	},
 	github: function () {
-		return GOOGLE_SCHOLAR_URL;
+		return GITHUB_URL;
 	}
 });
