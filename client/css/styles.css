@@ -3,8 +3,8 @@ body {
   color: #666666; 
 }
 hr {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0);
 }
 .carousel-caption {
   position: absolute;
