@@ -1,5 +1,5 @@
 body {
-  background: #eee;
+  background: #fff;
   color: #666666; 
 }
 hr {
@@ -11,7 +11,32 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 15px;
+  padding: 25px;
   background: #333333;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control {
+  padding-bottom:2px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.navbar-inner {
+  background-color:#fff !important;
+  background-image: none !important;
+}
+
+.navbar-inner {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.footer {
+  background-color:#fff;
+  border-radius:6px;
+}
+
+.nav li > a:hover {
+  color:#ccc !important;
 }
