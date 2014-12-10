@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Open+Sans:100,300,700,400italic,700italic');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,300,700,400italic,700italic');
 
 /*!
  * Bootstrap v2.3.2
@@ -6171,7 +6171,7 @@ a.badge:focus {
 div.subnav .nav > li > a,
 div.subnav .nav > .active > a,
 div.subnav .nav > .active > a:hover {
-  color: #fff;
+  color: #333333;
 }
 
 div.subnav-fixed {
