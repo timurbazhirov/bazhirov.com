@@ -5,9 +5,9 @@ Simple personal website with meteor
 
 dependencies: 
 	      
-	      mrt (meteorite)
+	mrt (meteorite)
 
-	      customized bootstrap
+	customized bootstrap
 
 meteorite comands:
 	
